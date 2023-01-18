@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./App.{js,jsx,ts,tsx}",
-    "./src/**/*.{js,jsx,ts,tsx}"
+    './App.{js,jsx,ts,tsx}',
+    './src/**/*.{js,jsx,ts,tsx}'
   ], 
   theme: {
     extend: {
@@ -10,12 +10,12 @@ module.exports = {
         background: '#09090a',
       },
       fontFamily: {
-        regular: 'Inter_400Regular',
-        semibold: 'Inter_600SemiBold',
-        bold: 'Inter_700Bold',
-        extrabold: 'Inter_800ExtraBold'
+        regular: 'Inter-Regular',
+        semibold: 'Inter-SemiBold',
+        bold: 'Inter-Bold',
+        extrabold: 'Inter-ExtraBold'
       }
     },
   },
   plugins: [],
-}
+};

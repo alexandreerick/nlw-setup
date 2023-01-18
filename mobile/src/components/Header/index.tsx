@@ -12,10 +12,10 @@ const Header = () => {
       <TouchableOpacity activeOpacity={0.8} className="flex-row h-11 px-4 border border-violet-500 rounded-lg items-center">
         <Plus color={colors.violet[500]} size={20}/>
 
-        <Text className='text-white ml-3 font-bold text-base'>Novo</Text>
+        <Text className="text-white ml-3 font-semibold text-base">Novo</Text>
       </TouchableOpacity>
     </View>
-  )
-}
+  );
+};
 
 export default Header;

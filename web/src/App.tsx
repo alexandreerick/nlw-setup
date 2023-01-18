@@ -1,9 +1,14 @@
+import Header from "./components/Header"
+import SummaryTable from "./components/SummaryTable"
+
 function App() {
   return (
-    <div className="bg-zinc-900">
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="w-screen h-screen flex justify-center items-center">
+      <div className="w-full max-w-5xl px-6 flex flex-col gap-16">
+        <Header />
+
+        <SummaryTable />
+      </div>
     </div>
   )
 }
